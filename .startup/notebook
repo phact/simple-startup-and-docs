@@ -23,4 +23,4 @@ fi
 
 
 # Swap out your file name here
-curl -H "Accept-Encoding: gzip" -X POST -F 'file=@Streaming_ML_Product_Recommendation_2018-04-25_22_08_07.studio-nb.tar' http://"$IP":9091/api/v1/notebooks/import &> /dev/null
+curl -H "Accept-Encoding: gzip" -X POST -F 'file=@NOTEBOOK.studio-nb.tar' http://"$IP":9091/api/v1/notebooks/import &> /dev/null
